@@ -1,0 +1,2 @@
+npm i @walletconnect/web3-provider
+yarn add react-moralis
