@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Avatar({ username, logoutOnPress }) {
 	const { user, logout } = useMoralis();
-	const avaterImg = `https://avatars.dicebear.com/api.pixel-art/${
+	const avaterImg = `https://avatars.dicebear.com/api/pixel-art/${
 		username || user.get("username")
 	}.svg`;
 	return (
